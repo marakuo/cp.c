@@ -1,2 +1,2 @@
-# cp.c
+# cp
 mimic cp command 
