@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
    int  readcount;
     while((readcount = read(fds, buf, 1024)) > 0){
         if(write(fddest, buf, readcount) == -1){
-            perror("write failed");
+            printf("write failed");
             close(fds);
             close(fddest);
             return 1;
