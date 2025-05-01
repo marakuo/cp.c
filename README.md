@@ -1,2 +1,1 @@
-# cp
-mimic cp command 
+# LINUX RELATED TASKS 
